@@ -1,8 +1,7 @@
 ## Ruby on Rails starter project for prismic.io
 
 This is a blank Rails project that will connect to any [prismic.io](https://prismic.io)
-repository, and trivially list its documents. It uses the prismic.io Ruby developement kit, and provides a few helpers
-to better use it with Rails.
+repository, and trivially list its documents. It uses the prismic.io Ruby developement kit, and provides a few helpers to better use it with Rails.
 
 ### Getting started
 
