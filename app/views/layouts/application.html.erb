@@ -2,12 +2,15 @@
 <html>
 <head>
   <title>StarterRubyRails</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  <%= csp_meta_tag %>
 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <%= stylesheet_pack_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+  <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+</head>
+
+<body>
 <header>
   <a href="/">
     <h1>Your prismic.io project</h1>
