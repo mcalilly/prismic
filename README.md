@@ -15,7 +15,7 @@ This is Ruby on Rails project set up for [prismic.io](https://prismic.io). It wa
 3. Rename the directory and app to your new project name
 4. Make sure you can see the homepage at localhost:3000 with the Prismic sample data and Tailwind styling
 5. Make sure you can create and run database migrations
-6. Create a Heroku app and make sure it can deploy and show the homepage with Prismic data and Tailwind styles in production. (You might have to run database migrations on Heroku.)
+6. Create a Heroku app and make sure it can deploy and show the homepage with Prismic data and Tailwind styles in production. You might have to run database migrations on Heroku. (heroku apps:create your-app-name)
 7. As you work on your new project be sure to add anything to this repository that is common and useful to any new projects.
 
 ## To Do List
