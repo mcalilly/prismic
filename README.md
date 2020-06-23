@@ -20,6 +20,7 @@ This is Ruby on Rails project set up for [prismic.io](https://prismic.io). It wa
 
 ## To Do List
 * Create global constants so that the app can be renamed in one file after forking it to start a new project
+* Add default helpers for Page Titles and SEO metadata based on global constants
 * Figure out how to replace this project with a rails new generator???
 
 -------------
