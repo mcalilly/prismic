@@ -1,7 +1,32 @@
-## Ruby on Rails starter project for prismic.io
+# Ruby on Rails starter project for prismic.io
 
+This is Ruby on Rails project set up for [prismic.io](https://prismic.io). It was forked from the [Prismic Rails Starter project](https://github.com/prismicio/ruby-rails-starter) and upgraded to Rails 6.
+
+## Default Settings
+* Rails 6 w/ RBENV
+* Postgres
+* Tailwind CSS with Alpine JS installed via Yarn
+* Prismic CMS
+* Heroku
+
+## How to Use This on a New Project
+1. Fork this repository
+2. Remove the gitbub remote origin (`git remote rm origin`)
+3. Rename the directory and app to your new project name
+4. Make sure you can see the homepage at localhost:3000 with the Prismic sample data and Tailwind styling
+5. Make sure you can create and run database migrations
+6. Create a Heroku app and make sure it can deploy and show the homepage with Prismic data and Tailwind styles in production. (You might have to run database migrations on Heroku.)
+7. As you work on your new project be sure to add anything to this repository that is common and useful to any new projects.
+
+## To Do List
+* Create global constants so that the app can be renamed in one file after forking it to start a new project
+* Figure out how to replace this project with a rails new generator???
+
+-------------
+
+## Original Prismic Starter App Notes
 This is a blank Rails project that will connect to any [prismic.io](https://prismic.io)
-repository, and trivially list its documents. It uses the prismic.io Ruby developement kit, and provides a few helpers to better use it with Rails.
+repository, and trivially list its documents. It uses the prismic.io Ruby development kit, and provides a few helpers to better use it with Rails.
 
 ### Getting started
 
@@ -51,7 +76,7 @@ There are several places in this project where you'll be able to find helpful he
    * provides a number of other methods that some other helpers rely on (`access_token`, `config`, `init_api`, ...). If you're integrating prismic.io into an existing project, you really want that file.
  * in `config/initializers/prismic_custom.rb`:
    * allows you may customize the Ruby kit's behavior here.
-   *out-of-the-box allows you to write `as_html_safe(link_resolver(maybe_ref))` in your views, instead of having to write `as_html(link_resolver(maybe_ref)).html_safe`.
+   * out-of-the-box allows you to write `as_html_safe(link_resolver(maybe_ref))` in your views, instead of having to write `as_html(link_resolver(maybe_ref)).html_safe`.
  * we've also included some basic pages by default, with their routes, controllers and views:
    * the "index" page displays all documents, paginated by 20, and lists them as links towards their "document" pages.
    * "document" pages display a whole document in a trivial way.
