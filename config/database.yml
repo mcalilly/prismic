@@ -5,13 +5,14 @@ default: &default
 
 development:
   <<: *default
-  database: ruby_rails_starter_development
+  database: starter_development
 
 test:
   <<: *default
-  database: ruby_rails_starter_test
+  database: starter_test
 
 production:
   <<: *default
-  database: ruby_rails_starter_production
-  username: ruby_rails_starter
+  database: starter_production
+  username: starter
+  password: <%= ENV['starter_DATABASE_PASSWORD'] %>
