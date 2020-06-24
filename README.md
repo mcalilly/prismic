@@ -22,6 +22,7 @@ This is Ruby on Rails project set up for [prismic.io](https://prismic.io). It wa
 * Create global constants so that the app can be renamed in one file after forking it to start a new project
 * Add default helpers for Page Titles and SEO metadata based on global constants
 * Add default controller, routes, and templates for homepage and style guide page
+* Set up basic styles to use @apply and have responsive breakpoints
 * Create dynamic error pages that use rails layouts and tailwind
 * Figure out how to replace this project with a rails new generator???
 
